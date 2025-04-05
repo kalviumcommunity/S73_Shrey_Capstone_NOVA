@@ -109,3 +109,6 @@ A web-based innovation hub that allows students to:
 - ✅ Gather analytics & fine-tune AI algorithms.
 - ✅ Plan roadmap for V2 with additional integrations (Web3, API connections, automation tools).
 
+
+
+BACKEND DEPLOYMENT LINK - [https://s73-shrey-capstone-nova-1.onrender.com]
