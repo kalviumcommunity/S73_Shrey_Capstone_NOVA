@@ -3,6 +3,7 @@
 ## 🔍 Problem Statement:
 Students struggle to showcase innovations, collaborate on projects, find mentors, and monetize their skills on a single platform.
 
+
 ## 💡 Solution:
 A web-based innovation hub that allows students to:
 - ✅ **Share & Showcase** – Post projects, get feedback, gain recognition.

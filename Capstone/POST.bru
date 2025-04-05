@@ -1,0 +1,21 @@
+meta {
+  name: POST
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:5000/api/users/signup
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Shrey",
+    "email": "shrey@example.com",
+    "password": "eft123",
+    "role": "mentor",
+    "skills": ["React", "MongoDB"]
+  }
+}
