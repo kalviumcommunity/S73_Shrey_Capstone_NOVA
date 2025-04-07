@@ -76,13 +76,13 @@ const updateUserProfile = async (req, res) => {
     const user = await User.findById(userId);
     if (!user) return res.status(404).json({ message: 'User not found' });
 
-    // Update fields if they are provided
+
     if (name) user.name = name;
     if (email) user.email = email;
     if (role) user.role = role;
     if (skills) user.skills = skills;
 
-    // If password is being updated, hash it
+
     if (password) {
       const salt = await bcrypt.genSalt(10);
       user.password = await bcrypt.hash(password, salt);
